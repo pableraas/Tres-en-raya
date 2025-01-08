@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Partida"
+    android:background="@drawable/fondo">
+
+    <TextView
+        android:id="@+id/tw2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#0443BA"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.605" />
+
+    <TableLayout
+        android:id="@+id/tablero"
+        android:layout_width="384dp"
+        android:layout_height="328dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/tablerofondo2"
+        android:backgroundTintMode="screen"
+        app:layout_constraintBottom_toTopOf="@+id/button4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+            <ImageView
+                android:id="@+id/celda1"
+                android:layout_width="0dp"
+                android:layout_height="68dp"
+                android:layout_weight="1"
+                />
+            <ImageView
+                android:id="@+id/celda2"
+                android:layout_width="0dp"
+                android:layout_height="68dp"
+                android:layout_weight="1"
+                />
+            <ImageView
+                android:id="@+id/celda3"
+                android:layout_width="0dp"
+                android:layout_height="68dp"
+                android:layout_weight="1"
+                />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+            <ImageView
+                android:id="@+id/celda4"
+                android:layout_width="0dp"
+                android:layout_height="68dp"
+                android:layout_weight="1"
+                />
+            <ImageView
+                android:id="@+id/celda5"
+                android:layout_width="0dp"
+                android:layout_height="68dp"
+                android:layout_weight="1"
+                />
+            <ImageView
+                android:id="@+id/celda6"
+                android:layout_width="0dp"
+                android:layout_height="68dp"
+                android:layout_weight="1"
+                />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+            <ImageView
+                android:id="@+id/celda7"
+                android:layout_width="0dp"
+                android:layout_height="68dp"
+                android:layout_weight="1"
+                />
+            <ImageView
+                android:id="@+id/celda8"
+                android:layout_width="0dp"
+                android:layout_height="68dp"
+                android:layout_weight="1"
+                />
+            <ImageView
+                android:id="@+id/celda9"
+                android:layout_width="0dp"
+                android:layout_height="68dp"
+                android:layout_weight="1"
+                />
+        </TableRow>
+    </TableLayout>
+
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#0443BA"
+        android:text="@string/bt4"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.702" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:backgroundTint="#0443BA"
+        android:text="@string/bt5"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.799" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#0443BA"
+        android:text="@string/bt6"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button5"
+        app:layout_constraintVertical_bias="0.251" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

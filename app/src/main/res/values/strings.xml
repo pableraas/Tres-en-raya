@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">TresEnRaya</string>
+    <string name="tw1">¡Bienvenidos!</string>
+    <string name="bt1">Jugador VS Jugador</string>
+    <string name="bt2">Jugador VS Máquina</string>
+    <string name="bt3">Ver estadísticas</string>
+    <string name="bt4">Reiniciar Partida</string>
+    <string name="bt5">Volver</string>
+    <string name="bt6">Recrear Partida</string>
+
+
+
+
+
+</resources>
